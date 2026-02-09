@@ -13,4 +13,7 @@ def reverse_string(s: str) -> str:
     return result
 
 if __name__=="__main__":
-    print(reverse_string("hello"))
+    
+    test_cases = ["satyajit", "hello", "world", "python"]
+    for word in test_cases:
+        print(f"{word}: {reverse_string(word)}")
